@@ -3,8 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
     <title>Responsive Sports Website</title>
+    <style>
+        /* Reset some default styles */
+        body, h1, h2, h3, p, ul, li {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Basic styling */
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        /* Header styles */
+        header {
+            background-color: #333;
+            color: blue;
+            padding: 10px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+        }
+
+        .nav-links li {
+            margin-right: 20px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: white;
+        }
+
+        /* Hero section styles */
+        .hero {
+            background-image: url('hero-background.jpg');
+            background-size: cover;
+            color: white;
+            text-align: center;
+            padding: 100px 0;
+        }
+
+        /* Featured events section styles */
+        .featured-events {
+            padding: 50px;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -28,82 +84,5 @@
         <!-- Featured events content goes here -->
     </section>
 
-    <section class="teams">
-        <!-- Teams section content goes here -->
-    </section>
-
-    <footer>
-        <p>&copy; 2023 SportsHub. All rights reserved.</p>
-    </footer>
 </body>
 </html>
-
-/* Reset some default styles */
-body, h1, h2, h3, p, ul, li {
-    margin: 0;
-    padding: 0;
-}
-
-/* Basic styling */
-body {
-    font-family: Arial, sans-serif;
-}
-
-/* Header styles */
-header {
-    background-color: #333;
-    color: white;
-    padding: 10px;
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logo {
-    font-size: 1.5rem;
-}
-
-.nav-links {
-    list-style: none;
-    display: flex;
-}
-
-.nav-links li {
-    margin-right: 20px;
-}
-
-.nav-links a {
-    text-decoration: none;
-    color: white;
-}
-
-/* Hero section styles */
-.hero {
-    background-image: url('hero-background.jpg');
-    background-size: cover;
-    color: white;
-    text-align: center;
-    padding: 100px 0;
-}
-
-/* Featured events section styles */
-.featured-events {
-    padding: 50px;
-}
-
-/* Teams section styles */
-.teams {
-    background-color: #f4f4f4;
-    padding: 50px;
-}
-
-/* Footer styles */
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-}
